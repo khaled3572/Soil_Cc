@@ -37,8 +37,8 @@ def main():
 
 
     F = st.slider("Pourcentage des fines F(%): ",40,100,key = 11)
-    LL = st.slider("Limite de Liquidité Wl(%): ",35.50,83.38,key = 21)
-    PI = st.slider("Indice de Plasticité IP(%): ",15.11,50.18,key = 31)
+    WL = st.slider("Limite de Liquidité Wl(%): ",35.50,83.38,key = 21)
+    IP = st.slider("Indice de Plasticité IP(%): ",15.11,50.18,key = 31)
     w = st.slider("Teneur en eau naturelle W(%) : ",12.84,32.30,key = 41)
     e0 = st.slider("Indice des vides initial : ",0.43,0.85,key = 51)
     ρd = st.slider("Masse volumique séche du sol ρd(t/m3) : ",1.49,1.90,key = 61)
